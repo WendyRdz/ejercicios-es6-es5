@@ -1,19 +1,24 @@
-// En este ejercicio deberas crear tu solción en ES5, asegurarte que funcione 
-
 // declara el prompt
- 
-function user () {
-// escribe tu código aqui...
+/*var contrasena = prompt("Ingresa contraseña");
+
+function user() {
+  // escribe tu código aqui...
+
+  if (contrasena === null || contrasena !== "laboratoria") {
+    console.log("contrasena incorrecta");
+  } else if (contrasena === "laboratoria") {
+    console.log("contrasena correcta");
+  }
 }
-
-
-
-
-
-
+user();*/
 // comenta todo lo anterior y escribelo en ES6
 
-
-// user () => {
-
-// }
+const contrasena = prompt("Ingresa contraseña");
+user() => {
+    if (contrasena === null || contrasena !== "laboratoria") {
+        console.log("contrasena incorrecta");
+    } else if (contrasena === "laboratoria") {
+        console.log("contrasena correcta");
+    }
+}
+user();
