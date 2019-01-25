@@ -20,7 +20,7 @@
 
  //Es6
 
- findPairForSum(arr, sum) => {
+ let findPairForSum(arr, sum) => {
      //var sum = int;
      let num1 = arr[0];
      let num2;
